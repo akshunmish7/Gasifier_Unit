@@ -1,5 +1,6 @@
 import React from 'react'
 import { useState } from 'react';
+import backgroundImage from '../gasifier_img.png';
 
 const Efficiency = () => {
   // primary variable
@@ -45,8 +46,8 @@ const Efficiency = () => {
   }
 
   return (
-    <div class="flex h-screen justify-center bg-indigo-200 overflow-auto">
-        <div class="w-full mt-7 mb-7 max-w-xl m-auto bg-indigo-100 rounded p-5 overflow-y-scroll n-scrollbar">
+    <div class="flex h-screen justify-center bg-indigo-200 overflow-auto" style={{backgroundImage: `url(${backgroundImage})`, backgroundSize: 'cover'}}>
+        <div class="w-full mt-7 mb-7 max-w-xl m-auto bg-indigo-100 rounded p-5 overflow-y-scroll n-scrollbar" style={{backgroundColor: 'rgba(224, 231, 255,0.9)'}}>
         <h2 className='text-l font-semibold block text-center mb-4 '>Carbon and Energy Efficiency Calculator</h2>
         <form>
         <div class="grid gap-6 mb-6 md:grid-cols-2">
