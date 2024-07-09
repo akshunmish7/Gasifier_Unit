@@ -1,6 +1,6 @@
 import React from 'react'
 import { Link } from 'react-router-dom' 
-import backgroundImage from '../gasifier_img.png';
+import backgroundImage from '../gasifier_img.jpeg';
 const Home = () => {
   return (
     <>

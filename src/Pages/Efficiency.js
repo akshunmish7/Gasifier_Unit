@@ -1,6 +1,7 @@
 import React from 'react'
 import { useState } from 'react';
-import backgroundImage from '../gasifier_img.png';
+import backgroundImage from '../gasifier_img.jpeg';
+
 
 const Efficiency = () => {
   // primary variable
